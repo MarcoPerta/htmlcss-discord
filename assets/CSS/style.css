@@ -15,7 +15,7 @@ header {
     display: flex;
 }
 
-header>nav , .two-elements {
+header>nav , .two-elements, .three-elements {
     width: 80%;
     margin: auto;
 }
@@ -100,3 +100,28 @@ header h1, header p {
 .order-2{
     order: 2;
 }
+
+.three-elements{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.stars img, h3 {
+    display: inline-block;
+    text-align: center;
+}
+
+.btn3{
+    border-radius: 20px 20px 20px 20px;
+    border: #8EA1E1;
+    padding: 10px 10px;
+    color: white;
+    background-color: #8EA1E1;
+    margin-top: 10px;
+}
+
+
+.just-chillin{
+    margin-bottom: 300px;
+}
+
