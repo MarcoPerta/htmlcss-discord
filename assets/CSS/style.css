@@ -8,6 +8,7 @@ header{
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
+    height: 60vh;
 }
 
 .flex{
@@ -57,8 +58,11 @@ header > nav {
 
 #mainheader > h1, p {
     color: white;
-    text-align: center;
     margin: 20px;
+}
+
+#buttons, #mainheader {
+    text-align: center;
 }
 
 .btn2{
@@ -67,9 +71,5 @@ header > nav {
     padding: 10px 10px;
     color: white;
     background-color: black;
-}
-
-.btn1, .btn2 {
-    align-items: center;
-    margin-left: 50%;
+    margin-left: 10px;
 }
