@@ -20,6 +20,11 @@ header>nav , .two-elements, .three-elements, .contain-footer, .last {
     margin: auto;
 }
 
+header>nav {
+    align-items: center;
+    padding-top: 10px;
+}
+
 #left-logo {
     flex-basis: 20%;
 }
@@ -80,6 +85,10 @@ main{
     margin: 40px;
 }
 
+.discord-channel, .discord-where{
+    margin-bottom: 200px;
+}
+
 .two-elements {
     justify-content: space-between;
 }
@@ -109,9 +118,13 @@ main{
     margin-top: 100px;
 }
 
-.stars img, h3 {
+.three-elements h3 {
     display: inline-block;
-    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 40px;
+    margin-bottom: 20px;
 }
 
 .btn3, #btn4 {
@@ -120,7 +133,7 @@ main{
     padding: 10px 10px;
     color: white;
     background-color: #8EA1E1;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
  
 
@@ -171,15 +184,10 @@ footer {
     padding: 5px;
 }
 
-.lists ul {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
 .last {
     padding: 20px;
     justify-content: space-between;
+    align-items: center;
 }
 
 
